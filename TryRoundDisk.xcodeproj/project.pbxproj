@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528AE8C61491FE40009002ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528AE8C51491FE40009002ED /* UIKit.framework */; };
+		528AE8C81491FE40009002ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528AE8C71491FE40009002ED /* Foundation.framework */; };
+		528AE8CA1491FE40009002ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528AE8C91491FE40009002ED /* CoreGraphics.framework */; };
+		528AE8D01491FE40009002ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528AE8CE1491FE40009002ED /* InfoPlist.strings */; };
+		528AE8D21491FE40009002ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 528AE8D11491FE40009002ED /* main.m */; };
+		528AE8D61491FE40009002ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528AE8D51491FE40009002ED /* AppDelegate.m */; };
+		528AE8DE1491FE40009002ED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528AE8DD1491FE40009002ED /* SenTestingKit.framework */; };
+		528AE8DF1491FE40009002ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528AE8C51491FE40009002ED /* UIKit.framework */; };
+		528AE8E01491FE40009002ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528AE8C71491FE40009002ED /* Foundation.framework */; };
+		528AE905149202E4009002ED /* disk.png in Resources */ = {isa = PBXBuildFile; fileRef = 528AE904149202E4009002ED /* disk.png */; };
+		528AE90B14920992009002ED /* RoundDiskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528AE90214920298009002ED /* RoundDiskViewController.m */; };
+		52EFB9441494AE0B00AA80D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EFB9431494AE0B00AA80D2 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528AE8E11491FE40009002ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528AE8B81491FE40009002ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528AE8C01491FE40009002ED;
+			remoteInfo = TryRoundDisk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		528AE8C11491FE40009002ED /* TryRoundDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryRoundDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528AE8C51491FE40009002ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		528AE8C71491FE40009002ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		528AE8C91491FE40009002ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		528AE8CD1491FE40009002ED /* TryRoundDisk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TryRoundDisk-Info.plist"; sourceTree = "<group>"; };
+		528AE8CF1491FE40009002ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		528AE8D11491FE40009002ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		528AE8D31491FE40009002ED /* TryRoundDisk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TryRoundDisk-Prefix.pch"; sourceTree = "<group>"; };
+		528AE8D41491FE40009002ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		528AE8D51491FE40009002ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		528AE8DC1491FE40009002ED /* TryRoundDiskTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryRoundDiskTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528AE8DD1491FE40009002ED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		528AE90114920298009002ED /* RoundDiskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundDiskViewController.h; sourceTree = "<group>"; };
+		528AE90214920298009002ED /* RoundDiskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundDiskViewController.m; sourceTree = "<group>"; };
+		528AE904149202E4009002ED /* disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disk.png; sourceTree = "<group>"; };
+		52EFB9431494AE0B00AA80D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528AE8BE1491FE40009002ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFB9441494AE0B00AA80D2 /* QuartzCore.framework in Frameworks */,
+				528AE8C61491FE40009002ED /* UIKit.framework in Frameworks */,
+				528AE8C81491FE40009002ED /* Foundation.framework in Frameworks */,
+				528AE8CA1491FE40009002ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528AE8D81491FE40009002ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528AE8DE1491FE40009002ED /* SenTestingKit.framework in Frameworks */,
+				528AE8DF1491FE40009002ED /* UIKit.framework in Frameworks */,
+				528AE8E01491FE40009002ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528AE8B61491FE40009002ED = {
+			isa = PBXGroup;
+			children = (
+				528AE8CB1491FE40009002ED /* TryRoundDisk */,
+				528AE8C41491FE40009002ED /* Frameworks */,
+				528AE8C21491FE40009002ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528AE8C21491FE40009002ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528AE8C11491FE40009002ED /* TryRoundDisk.app */,
+				528AE8DC1491FE40009002ED /* TryRoundDiskTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528AE8C41491FE40009002ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EFB9431494AE0B00AA80D2 /* QuartzCore.framework */,
+				528AE8C51491FE40009002ED /* UIKit.framework */,
+				528AE8C71491FE40009002ED /* Foundation.framework */,
+				528AE8C91491FE40009002ED /* CoreGraphics.framework */,
+				528AE8DD1491FE40009002ED /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		528AE8CB1491FE40009002ED /* TryRoundDisk */ = {
+			isa = PBXGroup;
+			children = (
+				528AE904149202E4009002ED /* disk.png */,
+				528AE8D41491FE40009002ED /* AppDelegate.h */,
+				528AE8D51491FE40009002ED /* AppDelegate.m */,
+				528AE90114920298009002ED /* RoundDiskViewController.h */,
+				528AE90214920298009002ED /* RoundDiskViewController.m */,
+				528AE8CC1491FE40009002ED /* Supporting Files */,
+			);
+			path = TryRoundDisk;
+			sourceTree = "<group>";
+		};
+		528AE8CC1491FE40009002ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				528AE8CD1491FE40009002ED /* TryRoundDisk-Info.plist */,
+				528AE8CE1491FE40009002ED /* InfoPlist.strings */,
+				528AE8D11491FE40009002ED /* main.m */,
+				528AE8D31491FE40009002ED /* TryRoundDisk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528AE8C01491FE40009002ED /* TryRoundDisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528AE8EE1491FE40009002ED /* Build configuration list for PBXNativeTarget "TryRoundDisk" */;
+			buildPhases = (
+				528AE8BD1491FE40009002ED /* Sources */,
+				528AE8BE1491FE40009002ED /* Frameworks */,
+				528AE8BF1491FE40009002ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryRoundDisk;
+			productName = TryRoundDisk;
+			productReference = 528AE8C11491FE40009002ED /* TryRoundDisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528AE8DB1491FE40009002ED /* TryRoundDiskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528AE8F11491FE40009002ED /* Build configuration list for PBXNativeTarget "TryRoundDiskTests" */;
+			buildPhases = (
+				528AE8D71491FE40009002ED /* Sources */,
+				528AE8D81491FE40009002ED /* Frameworks */,
+				528AE8D91491FE40009002ED /* Resources */,
+				528AE8DA1491FE40009002ED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528AE8E21491FE40009002ED /* PBXTargetDependency */,
+			);
+			name = TryRoundDiskTests;
+			productName = TryRoundDiskTests;
+			productReference = 528AE8DC1491FE40009002ED /* TryRoundDiskTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528AE8B81491FE40009002ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 528AE8BB1491FE40009002ED /* Build configuration list for PBXProject "TryRoundDisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 528AE8B61491FE40009002ED;
+			productRefGroup = 528AE8C21491FE40009002ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528AE8C01491FE40009002ED /* TryRoundDisk */,
+				528AE8DB1491FE40009002ED /* TryRoundDiskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528AE8BF1491FE40009002ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528AE8D01491FE40009002ED /* InfoPlist.strings in Resources */,
+				528AE905149202E4009002ED /* disk.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528AE8D91491FE40009002ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		528AE8DA1491FE40009002ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528AE8BD1491FE40009002ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528AE8D21491FE40009002ED /* main.m in Sources */,
+				528AE8D61491FE40009002ED /* AppDelegate.m in Sources */,
+				528AE90B14920992009002ED /* RoundDiskViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528AE8D71491FE40009002ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528AE8E21491FE40009002ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528AE8C01491FE40009002ED /* TryRoundDisk */;
+			targetProxy = 528AE8E11491FE40009002ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		528AE8CE1491FE40009002ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528AE8CF1491FE40009002ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		528AE8EC1491FE40009002ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528AE8ED1491FE40009002ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528AE8EF1491FE40009002ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TryRoundDisk/TryRoundDisk-Prefix.pch";
+				INFOPLIST_FILE = "TryRoundDisk/TryRoundDisk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		528AE8F01491FE40009002ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TryRoundDisk/TryRoundDisk-Prefix.pch";
+				INFOPLIST_FILE = "TryRoundDisk/TryRoundDisk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		528AE8F21491FE40009002ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TryRoundDisk.app/TryRoundDisk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TryRoundDisk/TryRoundDisk-Prefix.pch";
+				INFOPLIST_FILE = "TryRoundDiskTests/TryRoundDiskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		528AE8F31491FE40009002ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TryRoundDisk.app/TryRoundDisk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TryRoundDisk/TryRoundDisk-Prefix.pch";
+				INFOPLIST_FILE = "TryRoundDiskTests/TryRoundDiskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528AE8BB1491FE40009002ED /* Build configuration list for PBXProject "TryRoundDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528AE8EC1491FE40009002ED /* Debug */,
+				528AE8ED1491FE40009002ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528AE8EE1491FE40009002ED /* Build configuration list for PBXNativeTarget "TryRoundDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528AE8EF1491FE40009002ED /* Debug */,
+				528AE8F01491FE40009002ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528AE8F11491FE40009002ED /* Build configuration list for PBXNativeTarget "TryRoundDiskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528AE8F21491FE40009002ED /* Debug */,
+				528AE8F31491FE40009002ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528AE8B81491FE40009002ED /* Project object */;
+}
